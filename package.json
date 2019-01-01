@@ -1,0 +1,24 @@
+{
+  "name": "acidyellows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "deploy-aws-s3-cloudfront --bucket acidyellows.com --source src --distribution E1GWN2PAXMERMR"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veritta/acidyellows.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veritta/acidyellows/issues"
+  },
+  "homepage": "https://github.com/veritta/acidyellows#readme",
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "deploy-aws-s3-cloudfront": "^0.2.10",
+    "global": "^4.3.2"
+  }
+}
